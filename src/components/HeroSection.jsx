@@ -2,11 +2,12 @@ import React from 'react'
 import { assets, cities } from '../../public/assets'
 
 function HeroSection() {
+  const bgImage = null
   return (
     <div>
-      <div className='flex flex-col items-start justify-center 
-      px-6 mbd:px-16 lg:px-32 text-white bg-[url("heroImage.png")]
-       bg-no-repeat bg-cover bg-center h-screen'>
+      <div className={`flex flex-col items-start justify-center 
+      px-6 mbd:px-16 lg:px-32 text-white ${ bgImage ? bg-[url("heroImage.png")] : " bg-gray-600"}
+       bg-no-repeat bg-cover bg-center h-screen`}>
 
         {/* Head lines to  */}
         <div>
