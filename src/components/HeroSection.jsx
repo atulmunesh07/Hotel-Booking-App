@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div>
       <div className={`flex flex-col items-start justify-center 
-      px-6 mbd:px-16 lg:px-32 text-white bg-[url(${bgImage})]
+      px-6 mbd:px-16 lg:px-32 text-white bg-gray-900
        bg-no-repeat bg-cover bg-center h-screen`}>
 
         {/* Head lines to  */}
