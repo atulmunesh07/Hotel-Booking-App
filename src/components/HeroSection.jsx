@@ -2,7 +2,7 @@ import React from 'react'
 import { assets, cities } from '../../public/assets'
 
 function HeroSection() {
-  const bgImage = '"heroImage.png"'
+  const bgImage = "heroImage.png"
   return (
     <div>
       <div className={`flex flex-col items-start justify-center 
