@@ -115,7 +115,7 @@ function NavBarPage() {
 
                 {/* Mobile Menu */}
 
-                <div className={`fixed top-0  left-0 w-full h-screen backdrop-blur-2xl bg-gray-800/30 
+                <div className={`fixed top-0  left-0 w-full h-screen backdrop-blur-2xl bg-gray-300
                      text-xl flex flex-col md:hidden 
                     items-center justify-center gap-6 font-medium text-gray-800 transition-all 
                     duration-500 ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
